@@ -2,13 +2,13 @@
 * "Jangan modal nama doang bro!!!"
 * (Scriptnya Aris187 ID).
 */
-const BotName = '👾AR15BOT👾'; // Nama Bot Whatsapp
-const instagramlu = 'https://instagram.com/_sadboy.ig'; // Nama Instagramlu cok
-const whatsapplu = 'Wa.me/+6285722553839'; // Nomor whatsapplu cok
+const BotName = '🏯SLANDERDEWATA🏯'; // Nama Bot Whatsapp
+const instagramlu = 'Coming'; // Nama Instagramlu cok
+const whatsapplu = 'Wa.me/+62881023975125'; // Nomor whatsapplu cok
 const kapanbotaktif = 'Tergantung jaringan'; // Kapan bot lu aktif
-const grupch1 = 'https://chat.whatsapp.com/GU6NsgZvfgw37vrjIxUPhP'; // OFFICIAL GRUP LU 1
-const grupch2 = 'https://www.youtube.com/channel/UCGYLWtyT9IADYNUiK0uZiGg'; // OFFICIAL GRUP LU 2
-const grupch3 = 'https://instagram.com/_sadboy.ig'; // OFFICIAL GRUP LU 3
+const grupch1 = 'https://bit.ly/SlandWhatsapp'; // OFFICIAL GRUP LU 1
+const grupch2 = 'https://www.youtube.com/channel/UCGYLWtyT9IADYNUiK0uZiGg <OwnerScript>'; // OFFICIAL GRUP LU 2
+const grupch3 = 'https://instagram.com/_sadboy.ig <OwnerScript>'; // OFFICIAL GRUP LU 3
 //
 const qrcode = require("qrcode-terminal");
 const moment = require("moment");
@@ -53,7 +53,7 @@ conn.on('qr', qr =>
    {
       small: true
    });
-   console.log(`[ ${moment().format("HH:mm:ss")} ] AR15BOT Ready scan now!`);
+   console.log(`[ ${moment().format("HH:mm:ss")} ] SLANDER BOT SCAN!`);
 });
 
 conn.on('credentials-updated', () =>
@@ -68,11 +68,11 @@ fs.existsSync('./session.json') && conn.loadAuthInfo('./session.json')
 //conn.connectOptions.agent = ProxyAgent ('http://1.0.180.120:8080')
 conn.connect();
 
-conn.on('user-presence-update', json => console.log(`[ ${moment().format("HH:mm:ss")} ] => bot by @_sadboy.ig`))
+conn.on('user-presence-update', json => console.log(`[ ${moment().format("HH:mm:ss")} ] => bot by SLANDERDEWATA`))
 conn.on('message-status-update', json =>
 {
    const participant = json.participant ? ' (' + json.participant + ')' : '' // participant exists when the message is from a group
-   console.log(`[ ${moment().format("HH:mm:ss")} ] => bot by @_sadboy.ig`)
+   console.log(`[ ${moment().format("HH:mm:ss")} ] => bot by SLANDERDEWATA')
 })
 
 conn.on('message-new', async(m) =>
@@ -116,7 +116,7 @@ conn.sendMessage(id ,`${gg} ${exists ? " exists " : " does not exist"} on WhatsA
 
 //Chat A187 ID
 else if (text == 'assalamualaikum'){
-conn.sendMessage(id, '3aalaikumsalam, Ketik #help/#info/#donasi Contoh #help' ,MessageType.text);
+conn.sendMessage(id, 'Waalaikumsalam, Ketik #help/#info/#donasi Contoh #help' ,MessageType.text);
 }
 else if (text == 'salam'){
 conn.sendMessage(id, 'Waalaikumsalam, Ketik #help/#info/#donasi Contoh #help' ,MessageType.text);
@@ -127,11 +127,11 @@ conn.sendMessage(id, 'Waalaikumsalam, Ketik #help/#info/#donasi Contoh #help' ,M
 else if (text == 'Assalamualaikum'){
 conn.sendMessage(id, 'Waalaikumsalam, Ketik #help/#info/#donasi Contoh #help' ,MessageType.text);
 }
-else if (text == 'p'){
-conn.sendMessage(id, 'Ya?, Ketik #help/#info/#donasi Contoh #help' ,MessageType.text);
+else if (text == '#ipport'){
+conn.sendMessage(id, 'SLANDERDEWATA ⟩⟩ IP : slanderdewata.myddns.me | PORT : 19132' ,MessageType.text);
 }
-else if (text == 'P'){
-conn.sendMessage(id, 'Ya?, Ketik #help/#info/#donasi Contoh #help' ,MessageType.text);
+else if (text == '#ipport'){
+conn.sendMessage(id, 'SLANDERDEWATA ⟩⟩ IP : slanderdewata.myddns.me | PORT : 19132' ,MessageType.text);
 }
 else if (text == 'Halo'){
 conn.sendMessage(id, 'Ya?, Ketik #help/#info/#donasi Contoh #help' ,MessageType.text);
@@ -140,16 +140,16 @@ else if (text == 'Asu'){
 conn.sendMessage(id, 'Lu Asw' ,MessageType.text);
 }
 else if (text == '.owner'){
-conn.sendMessage(id, 'Owner AR15BOT wa.me/+6285722553839' ,MessageType.text);
+conn.sendMessage(id, 'Owner AR15BOT wa.me/+6285722553839 , OWNER SLANDERDEWATA wa.me/+62881023975125' ,MessageType.text);
 }
 else if (text == 'Aris'){
-conn.sendMessage(id, 'Aku BOT nya Aris187 ID' ,MessageType.text);
+conn.sendMessage(id, 'Aku BOT nya Aris187 ID & Reyshiam' ,MessageType.text);
 }
 else if (text == 'Ngentod'){
-conn.sendMessage(id, 'Pengin ngentod?' ,MessageType.text);
+conn.sendMessage(id, 'Anda Panas? kurang obat?' ,MessageType.text);
 }
 else if (text == 'Anjing'){
-conn.sendMessage(id, 'Jangan toxic anjing' ,MessageType.text);
+conn.sendMessage(id, 'Jangan toxic "-_-' ,MessageType.text);
 }
 else if (text == 'Bacot'){
 conn.sendMessage(id, 'lu bacot_-' ,MessageType.text);
