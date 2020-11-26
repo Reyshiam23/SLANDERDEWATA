@@ -1,5 +1,5 @@
-# 🤖AR15BOT🤖
-BOT WHATSAPP TERMUX ONLY BY ARIS187 ID
+# 🤖SLANDERDEWATA🤖
+BOT WHATSAPP TERMUX ONLY BY ARIS187 ID REMAKE BY REY
 
 ### Alat dan Bahan
 Siapin alat dan bahannya.
@@ -21,8 +21,8 @@ Script ini di modifikasi sama saya sendiri Aris187 ID.
 > termux-setup-storage
 > pkg install git && pkg install wget && pkg install ffmpeg && pkg install nodejs
 > apt update && apt upgrade
-> git clone https://github.com/A187ID/AR15BOT
-> cd AR15BOT
+> git clone https://github.com/Reyshiam23/SLANDERDEWATA
+> cd SLANDERDEWATA
 > npm i -g cwebp && npm i -g ytdl && npm i  && npm i got && node index js
 > Tinggal scan kode qr yeee...done
 ```
